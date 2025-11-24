@@ -254,7 +254,7 @@ class FASTQAnalyzer:
         title_label = tk.Label(
             main_frame, 
             text="Анализатор файлов FASTQ", 
-            font=("Arial", 16, "bold"),
+            font=("DejaVu", 16, "bold"),
             fg="#2c3e50",  # темно-синий цвет в стиле изображения
             bg="white"
         )
@@ -273,7 +273,7 @@ class FASTQAnalyzer:
             height=2,
             bg="#3498db",  # синий цвет в стиле изображения
             fg="white",    # белый текст для контраста
-            font=("Arial", 10, "bold"),
+            font=("DejaVu", 10, "bold"),
             relief="raised",
             bd=2,
             activebackground="#2980b9",  # более темный синий при наведении
@@ -291,7 +291,7 @@ class FASTQAnalyzer:
             height=2,
             bg="#2ecc71",  # зеленый цвет для контраста с синим
             fg="white",    # белый текст для контраста
-            font=("Arial", 10, "bold"),
+            font=("DejaVu", 10, "bold"),
             relief="raised",
             bd=2,
             activebackground="#27ae60",  # более темный зеленый при наведении
@@ -310,7 +310,7 @@ class FASTQAnalyzer:
             relief="sunken",
             padx=10,
             pady=5,
-            font=("Arial", 9)
+            font=("DejaVu", 9)
         )
         self.file_label.pack(pady=5, fill=tk.X, padx=20)
         
@@ -346,7 +346,7 @@ class FASTQAnalyzer:
         label = tk.Label(
             frame, 
             text=title, 
-            font=("Arial", 11, "bold"), 
+            font=("DejaVu", 11, "bold"), 
             bg="white",
             fg="#2c3e50"  # темно-синий цвет в стиле изображения
         )
@@ -487,4 +487,5 @@ def main():
 
 # точка входа в программу
 if __name__ == "__main__":
+
     main()
